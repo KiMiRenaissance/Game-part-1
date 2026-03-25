@@ -1,0 +1,58 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cerah);
+    font-family: serif;
+}
+
+:root {
+    --gelap: #170b17;
+    --cerah: #fde2d7;
+    --cerah-semi: #e4b7b2;
+    --cerah-kegelap-gelapan: #855265;
+    --ungu-agak-gelap: #532c5b;
+    --ungu-gelap: #29174b;
+}
+
+.fcontainer {
+    width: 100%;
+}
+
+.gif {
+    width: 60%;
+    display: flex;
+}
+
+#hasil {
+    color: (--gelap);
+}
+
+#botSay {
+    color: var(--gelap);
+    margin: 1vh;
+}
+
+#soal {
+    background-color: var(--ungu-gelap);
+    padding: 10px;
+    margin: 30px;
+    width: 50%;
+    border-radius: 3px;
+    color: var(--cerah);
+    font-size: 40px;
+}
+
+#jawaban {
+    border: 3px solid var(--ungu-gelap);
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#button {
+    border: 3px solid var(--ungu-gelap);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 30px;
+    color: var(--ungu-gelap);
+}
