@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (puzzle.every((letter, i) => letter === letters[i])) {
             const pokoknya = document.getElementById('dialognya');
             pokoknya.innerHTML = 'Udah, udah, sana gih!';
-            berangkasEl.style.display = 'none';
+            puzzleContainer.style.display = 'none';
             nextGame.style.color = "red";
             setTimeout(function() {
                 lanjutin.textContent = 'pergi ke permainan!';
