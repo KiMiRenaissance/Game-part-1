@@ -1,0 +1,64 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: red;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#buttonImg {
+    display: none;
+    bottom: 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-p {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-content {
+    
+}
+
+.container-button {
+    display: flex;
+    justify-content: column;
+}
+
+#closeDialog {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 10vh;
+    border-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showDialog {
+    border: none;
+}
+
+#favDialog {
+    height: auto;
+    width: 70%;
+    position-area: center;
+    justify-content: center;
+    align-items: center;
+}
